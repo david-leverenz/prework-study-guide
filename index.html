@@ -16,7 +16,7 @@
     </header>
     <main>
       <h3><a href="#HTML-section">Link to HTML section</a><br>
-        <a href="#CSS-section">Link to CSS section</a><br>
+        <a href="#css-section">Link to CSS section</a><br>
         <a href="#git-section">Link to git section</a><br>
         <a href="#javascript-section">Link to javascript section</a><br>
       </h3>    
@@ -56,6 +56,15 @@
    
       <section class="card" id="git-section">
         <h2 id="git-section">Git</h2>
+        <h3>Creating a new repository</h3>
+        <ol>
+          <li>When you create a new repository you need to clone it with the SSH key.</li>
+          <li>Copy the SSH key in github then go to git bash and enter the following after getting to the proper directory that will house your working directory:</li>
+          <li>Git clone [then paste the SSH string from github] [press enter] This will create the working directory on your computer.</li>
+          <li>Then go into your working directory and type "git remote -v".  You should see push and fetch strings.</li>
+          <li>git checkout -b feature/[feature name]: to create a new feature branch</li>
+        </ol>  
+        <h3>Move a branch to github</h3>  
         <ol>
           <li>git add -A: make sure you're on the new branch before staging</li>
           <li>git commit -m "your comment": commit changes to the repository</li>
